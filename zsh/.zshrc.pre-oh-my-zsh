@@ -1,0 +1,18 @@
+# Open .zshrc to be edited in VS Code
+ZSH_THEME="powerlevel10k/powerlevel10k"
+alias change="code-insiders ~/.zshrc"
+
+# Re-run source command on .zshrc to update current terminal session with new settings
+
+alias update="source ~/.zshrc"
+  # Set Spaceship ZSH as a prompt
+  autoload -U promptinit; promptinit
+  prompt spaceship
+
+  alias l='colorls --group-directories-first --almost-all'
+
+  alias ll='colorls --group-directories-first --almost-all --long' # detailed list
+  alias parallel='cd ~/Desktop/College/4th\ year/Spring/Parallel/fonseca-cs23010-spr-20/'
+  alias boop='cd ~/Desktop/github'
+  alias gac="git add . && git commit -a -m "
+  alias mkcd='_(){ mkdir $1; cd $1; }; _'
