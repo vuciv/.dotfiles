@@ -9,6 +9,7 @@ alias parallel='cd ~/Desktop/College/4th\ year/Spring/Parallel/fonseca-cs23010-s
 alias boop='cd ~/Desktop/github'
 alias gac="git add . && git commit -a -m "
 alias mkcd='_(){ mkdir $1; cd $1; }; _'
+alias vi='vim'
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
